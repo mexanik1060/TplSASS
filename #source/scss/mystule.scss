@@ -1,0 +1,38 @@
+$TopColor: #c9c3c3;
+$TopFont: 'Courier New';
+
+
+
+body{
+  color: rgb(140, 225, 240);
+  background: $TopColor;
+}
+
+div {
+    border: 1px solid rgb(144, 245, 228); /* Параметры границы позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента*/
+   /* background: #fc3; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 8px; /*Радиус углов*/
+}
+
+.head-block{
+  background-color: rgb(76, 148, 148);
+  border-color: rgb(8, 49, 29);
+  border-radius: 8px;
+  height: auto;
+  width: auto;
+}
+
+.menu{
+  background-color: rgba($color: #155d5f, $alpha: 1.0);
+  color: #b0eef7;
+  height: auto; /* Высота блока */
+  width: 220px; /* Ширина блока */
+  overflow: auto; /* Добавляем полосы прокрутки */
+  /*background: url(/example/image/hand.png) repeat-y #fc0; /* Цвет фона, путь к фоновому изображению и повторение фона по вертикали */
+}
+
+.link-menu{
+  color: #b0eef7;
+}
+

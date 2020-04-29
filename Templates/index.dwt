@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Index</title>
+<!-- TemplateEndEditable -->
+<meta charset="UTF-8">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+	<meta name="description" content="Page Titile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, minimal-ui">
+  <!-- Режим вызова приложения на устройствах ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- Снять выделение касанием в Windows Phone IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  <!-- базовый css -->
+	<link rel="stylesheet" media="screen, print" href="../css/null.css">
+  <link rel="stylesheet" media="screen, print" href="../css/mystule.css">
+  <!-- Поместите favicon.ico в корневой каталог -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon">
+  <link rel="mask-icon" href="../img/favicon/.svg" color="#5bbad5">
+  <style type="text/css">
+  .menu {
+    font-family: Candara, "Candara Light", Century, "Century Gothic", Courier, "Courier New";
+    font-size: 14px;
+    font-style: normal;
+    background-color: #0D3C45;
+    letter-spacing: normal;
+    text-align: center;
+    word-spacing: normal;
+    white-space: normal;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    float: left;
+    height: 2px;
+    width: 2px;
+    border: thin solid #6A0C88;
+}
+  </style>
+  
+ 
+ 
+				<!--<link rel="stylesheet" media="screen, print" href="css/your_styles.css">-->
+					
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+	<div class="head-block"><!-- Головной блок -->
+		<div class="menu"><!-- Блок меню -->
+			<div class="top-menu"> <!-- Главное меню - с лева-->
+              <nav><!-- Здесь располагается содержимое нового тега nav (навигация) -->
+								<ul>
+		  						<li><a class="link-menu" href="../peremennie.php">Переменные</a></li>
+									<li><a class="link-menu" href="../peremennie.php">Переменные</a></li>
+            			<li><a class="link-menu" href="../constant.php">Констаны</a></li>
+            			<li><a class="link-menu" href="../array.php">Массив</a>
+            			  <nav class="menu">Здесь располагается содержимое  class "menu"</nav>
+            			</li>
+            			<li><a class="link-menu" href="../function.php">Функции</a></li>
+            			<li><a class="link-menu" href="../class.php">Class</a></li>
+            			<li><a class="link-menu" href="../summ_propic.php">Выводит - Сумма прописью</a></li>
+								</ul>
+              </nav>
+							<footer>
+					  	<p>Єто Нижний колонтитул</p>
+							</footer>
+				</div>
+		</div>
+	</div>
+</body>
+</html>

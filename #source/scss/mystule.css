@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body {
+  color: #8ce1f0;
+  background: #c9c3c3;
+}
+
+div {
+  border: 1px solid #90f5e4;
+  /* Параметры границы позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента*/
+  /* background: #fc3; /* Цвет фона */
+  padding: 10px;
+  /* Поля вокруг текста */
+  border-radius: 8px;
+  /*Радиус углов*/
+}
+
+.head-block {
+  background-color: #4c9494;
+  border-color: #08311d;
+  border-radius: 8px;
+  height: auto;
+  width: auto;
+}
+
+.menu {
+  background-color: #155d5f;
+  color: #b0eef7;
+  height: auto;
+  /* Высота блока */
+  width: 220px;
+  /* Ширина блока */
+  overflow: auto;
+  /* Добавляем полосы прокрутки */
+  /*background: url(/example/image/hand.png) repeat-y #fc0; /* Цвет фона, путь к фоновому изображению и повторение фона по вертикали */
+}
+
+.link-menu {
+  color: #b0eef7;
+}
+/*# sourceMappingURL=mystule.css.map */
